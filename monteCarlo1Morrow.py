@@ -18,8 +18,8 @@ if __name__ =='__main__':
     corner2 = (100,0)
     corner3 = (0,100)
     corner4 = (100,100)
-    circle1 = (1,1)
-    circle2 = (99,99)
+    circle1 = (0,0)
+    circle2 = (100,100)
     
     im = Image.new("RGB",(100,100), (128,128,128))
     draw = ImageDraw.Draw(im)
